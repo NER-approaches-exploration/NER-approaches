@@ -15,6 +15,7 @@ notebook = "^7.2.1"
 evaluate = "^0.4.2"
 seqeval = "^1.2.2"
 openpyxl = "^3.1.5"
+conllu = "^4.5.3"
 
 
 [build-system]
