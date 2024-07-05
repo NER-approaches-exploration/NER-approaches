@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dictionary-based-ner-for-uzbek"
+version = "0.1.0"
+description = ""
+authors = ["puck3 <shipilovk04@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.0"
+pandas = "^2.2.2"
+datasets = "^2.20.0"
+jupyter = "^1.0.0"
+notebook = "^7.2.1"
+evaluate = "^0.4.2"
+seqeval = "^1.2.2"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
