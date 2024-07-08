@@ -551,6 +551,17 @@ traitlets = ">=4"
 test = ["pytest"]
 
 [[package]]
+name = "corus"
+version = "0.10.0"
+description = "Links to russian corpora, functions for loading and parsing"
+optional = false
+python-versions = "*"
+files = [
+    {file = "corus-0.10.0-py3-none-any.whl", hash = "sha256:7b8da75d9fab0c3ee0d52a9fd575965dcd93fa1818da01a91bff178b3ad90bc7"},
+    {file = "corus-0.10.0.tar.gz", hash = "sha256:0e203f4fb96b841822ca34a79c2004564ec68a1bcf247ab09e08e49b0a7563e9"},
+]
+
+[[package]]
 name = "datasets"
 version = "2.20.0"
 description = "HuggingFace community-driven open-source library of datasets"
@@ -2652,6 +2663,17 @@ packaging = "*"
 test = ["pytest (>=6,!=7.0.0,!=7.0.1)", "pytest-cov (>=3.0.0)", "pytest-qt"]
 
 [[package]]
+name = "razdel"
+version = "0.5.0"
+description = "Splits russian text into tokens, sentences, section. Rule-based"
+optional = false
+python-versions = "*"
+files = [
+    {file = "razdel-0.5.0-py3-none-any.whl", hash = "sha256:76f59691c3216b47d32fef6274c18c12d61f602f1444b7ef4b135b03801f6d37"},
+    {file = "razdel-0.5.0.tar.gz", hash = "sha256:4334c0fdfe34d4e888cf0ed854968c9df14f0a547df909a77f4634f9ffe626e6"},
+]
+
+[[package]]
 name = "referencing"
 version = "0.35.1"
 description = "JSON Referencing + Python"
@@ -3961,4 +3983,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "407584570eca2cd9d29591c33c59233cfe464ac3ed9c77c3ed8f0e6dc428bbeb"
+content-hash = "2a3d05664d23aec478e7f5237ba4d50d877ec87edbc13c135d7df4e547844f11"
